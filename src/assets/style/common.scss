@@ -1,0 +1,121 @@
+@import './index.scss';
+
+body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, h6, i, b, textarea, button, input, select, figure, figcaption {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: PingFangSC-Medium, sans-serif;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-font-smoothing: antialiased;
+}
+html,body{
+    background-color: #F9F9F9;
+    user-select: none;
+}
+.flex-box {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-s-b {
+  justify-content: space-between;
+}
+.overflow-h {
+  overflow: hidden;
+}
+.bg-f {
+   background-color: #fff;
+}
+.bg-main {
+  background-color: $mainBgColor;
+}
+.color-main {
+  color: $mainfontColor;
+}
+.width-100 {
+  width: 100%;
+}
+.flex-1 {
+  flex: 1;
+}
+.p-ten {
+  padding: .1rem; 
+}
+.p-t-ten {
+  padding-top: .1rem;
+}
+.p-l-ten  {
+  padding-left: .1rem;
+}
+.p-r-ten {
+  padding-right: .1rem;
+}
+.p-b-ten {
+  padding-bottom: .1rem;
+}
+.color-f {
+  color: #fff;
+}
+.font-b {
+  font-weight: bold;
+}
+.color-3 {
+  color: #333;
+}
+.color-7 {
+  color: #777;
+}
+.color-9 {
+  color: #999
+}
+.font-12 {
+  font-size: .12rem;
+}
+.font-15 {
+  font-size: .15rem;
+}
+.font-18 {
+  font-size: .18rem;
+}
+.m-b-ten {
+  margin-bottom: .1rem;
+}
+.m-r-ten {
+  margin-right: .1rem;
+}
+.m-t-ten {
+  margin-top: .1rem;
+}
+.m-l-ten {
+  margin-left: .1rem;
+}
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.text-center {
+  text-align: center;
+}
+
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+} 
