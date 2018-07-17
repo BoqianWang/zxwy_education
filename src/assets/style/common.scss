@@ -12,6 +12,12 @@ body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, l
     -webkit-tap-highlight-color:transparent;
     -webkit-font-smoothing: antialiased;
 }
+input {
+  outline: none;
+}
+a {
+  color: none;
+}
 html,body{
     background-color: #F9F9F9;
     user-select: none;
@@ -33,6 +39,9 @@ html,body{
 .overflow-h {
   overflow: hidden;
 }
+.bg-size-cover {
+  background-size: cover;
+}
 .bg-f {
    background-color: #fff;
 }
@@ -50,6 +59,9 @@ html,body{
 }
 .p-ten {
   padding: .1rem; 
+}
+.p-five {
+  padding: .05rem; 
 }
 .p-t-ten {
   padding-top: .1rem;
@@ -104,6 +116,9 @@ html,body{
 }
 .abs {
   position: absolute;
+}
+.fixed {
+  position: fixed;
 }
 .text-center {
   text-align: center;
