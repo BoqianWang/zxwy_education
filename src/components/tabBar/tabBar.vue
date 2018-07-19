@@ -43,7 +43,9 @@
 			}
 		},
 		methods: {
-
+			show() {
+				alert(1);
+			}
 		}
 	}
 </script>
