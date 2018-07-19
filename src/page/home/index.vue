@@ -16,14 +16,14 @@
 	   width: 100%;
 	   left: 0;
 	   right: 0;
-	   animation: fadeLeave 1s;
+	   animation: fadeLeave .5s;
 	}
 	.fade-enter-active {
 	   position: absolute;
 	   width: 100%;
 	   left: 0;
 	   right: 0;
-	   animation: fadeEnter 1s;
+	   animation: fadeEnter .5s;
 	}
 	@keyframes fadeEnter {
 	    from {

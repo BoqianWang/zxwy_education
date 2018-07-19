@@ -14,37 +14,37 @@
 			</a>
 			<div class="order-list bg-f flex-box font-12">
 				<div class="order-block text-center flex-1">
-					<a href="##">
+					<a href="#/orderList">
 						<img src="../../assets/images/my/unpaid.png" alt="">
 						<p class="color-6">待支付</p>
 					</a>
 				</div>
 				<div class="order-block text-center flex-1">
-					<a href="##">
+					<a href="#/orderList">
 						<img src="../../assets/images/my/paid.png" alt="">
 						<p class="color-6">已支付</p>
 					</a>
 				</div>
 				<div class="order-block text-center flex-1">
-					<a href="##">
+					<a href="#/orderList">
 						<img src="../../assets/images/my/apply.png" alt="">
 						<p class="color-6">报名成功</p>
 					</a>
 				</div>
 				<div class="order-block text-center flex-1">
-					<a href="##">
+					<a href="#/orderList">
 						<img src="../../assets/images/my/used.png" alt="">
 						<p class="color-6">已使用</p>
 					</a>
 				</div>
 				<div class="order-block text-center flex-1">
-					<a href="##">
+					<a href="#/orderList">
 						<img src="../../assets/images/my/expire.png" alt="">
 						<p class="color-6">已支付</p>
 					</a>
 				</div>
 				<div class="order-block text-center flex-1">
-					<a href="##">
+					<a href="#/orderList">
 						<img src="../../assets/images/my/cancel.png" alt="">
 						<p class="color-6">取消</p>
 					</a>

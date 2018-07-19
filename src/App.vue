@@ -7,20 +7,18 @@
   </div>
 </template>
 <style scoped>
-	.transfor-leave-active {
-	   position: absolute;
-	   left: 0;
-	   top: 0;
-	   width: 100%;
-	   height: 100%;
-	   animation: fadeLeave .4s;
-	}
+	.transfor-leave-active,
 	.transfor-enter-active {
 	   position: absolute;
 	   left: 0;
 	   top: 0;
 	   width: 100%;
 	   height: 100%;
+	}
+	.transfor-leave-active {
+	   animation: fadeLeave .4s;
+	}
+	.transfor-enter-active {
 	   animation: fadeEnter .4s;
 	}
 	@keyframes fadeEnter {
