@@ -15,6 +15,8 @@ const paySuccess = r => require.ensure([], () => r(require('@/page/pay/paySucces
 const orderList = r => require.ensure([], () => r(require('@/page/order/orderList.vue')), 'orderList');
 const orderDetail = r => require.ensure([], () => r(require('@/page/order/orderDetail.vue')), 'orderDetail');
 
+const free = r => require.ensure([], () => r(require('@/page/free/free.vue')), 'free');
+
 let routerPath = [
    {
 	   path: '/',
@@ -91,6 +93,13 @@ let routerPath = [
       component: orderDetail,
       meta: {
          title: '订单列表'
+      }
+   },
+   {
+      path: '/free',
+      component: free,
+      meta: {
+         title: '免费权益'
       }
    }
 

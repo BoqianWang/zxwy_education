@@ -18,16 +18,16 @@
 		<div class="home-content m-t-ten">
 			<!-- 免费课程 -->
 			<div class="free-class bg-f">
-				<div class="con-title flex-box justify-s-b p-ten">
+				<a href="#/courseList" class="con-title flex-box justify-s-b p-ten">
 					<p class="font-15 color-3 font-b">免费课程</p>
 					<p class="color-9 flex-box align-center font-12">
 						<span>查看全部课程</span>
 						<span class="iconfont icon-jiantouyou font-12"></span>
 					</p>
-				</div>
+				</a>
 				<div class="free-class-wrap p-l-ten p-r-ten rel">
 					<ul class="abs clearfix">
-						<a href="##">
+						<a href="#/courseList/courseDetail">
 							<li class="free-c-block p-ten m-l-ten">
 								<p class="font-15 color-3">【2018暑】初三物理尖端陪优版</p>
 								<div class="font-12 p-t-ten color-9 free-l-detail">
@@ -57,7 +57,7 @@
 								</div>
 							</li>
 						</a>
-						<a href="##">
+						<a href="#/courseList/courseDetail">
 							<li class="free-c-block p-ten m-l-ten">
 								<p class="font-15 color-3">【2018暑】初三物理尖端陪优版</p>
 								<div class="font-12 p-t-ten color-9 free-l-detail">
@@ -87,7 +87,7 @@
 								</div>
 							</li>
 						</a>
-						<a href="##">
+						<a href="#/courseList/courseDetail">
 							<li class="free-c-block p-ten m-l-ten">
 								<p class="font-15 color-3">【2018暑】初三物理尖端陪优版</p>
 								<div class="font-12 p-t-ten color-9 free-l-detail">
@@ -117,7 +117,7 @@
 								</div>
 							</li>
 						</a>
-						<a href="##">
+						<a href="/courseList/courseDetail">
 							<li class="free-c-block p-ten m-l-ten">
 								<p class="font-15 color-3">【2018暑】初三物理尖端陪优版</p>
 								<div class="font-12 p-t-ten color-9 free-l-detail">
@@ -147,7 +147,7 @@
 								</div>
 							</li>
 						</a>
-						<a href="##">
+						<a href="#/courseList/courseDetail">
 							<li class="free-c-block p-ten m-l-ten">
 								<p class="font-15 color-3">【2018暑】初三物理尖端陪优版</p>
 								<div class="font-12 p-t-ten color-9 free-l-detail">
@@ -192,7 +192,7 @@
 				</a>
 				<div class="discount-class-wrap">
 					<ul>
-						<a href="#/courseList">
+						<a href="#/courseList/courseDetail">
 							<li class="p-ten discount-c-block">
 								<p class="font-15 color-3">【2018暑】初三物理尖端陪优版</p>
 								<div class="font-12 p-t-ten color-9">
@@ -210,7 +210,7 @@
 								</div>
 							</li>
 						</a>
-						<a href="#/courseList">
+						<a href="#/courseList/courseDetail">
 							<li class="p-ten discount-c-block">
 								<p class="font-15 color-3">【2018暑】初三物理尖端陪优版</p>
 								<div class="font-12 p-t-ten color-9">
@@ -228,7 +228,7 @@
 								</div>
 							</li>
 						</a>
-						<a href="#/courseList">
+						<a href="#/courseList/courseDetail">
 							<li class="p-ten discount-c-block">
 								<p class="font-15 color-3">【2018暑】初三物理尖端陪优版</p>
 								<div class="font-12 p-t-ten color-9">
@@ -246,7 +246,7 @@
 								</div>
 							</li>
 						</a>
-						<a href="#/courseList">
+						<a href="#/courseList/courseDetail">
 							<li class="p-ten discount-c-block">
 								<p class="font-15 color-3">【2018暑】初三物理尖端陪优版</p>
 								<div class="font-12 p-t-ten color-9">

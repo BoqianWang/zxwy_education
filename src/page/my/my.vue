@@ -51,7 +51,7 @@
 				</div>
 			</div>
 			<div class="m-t-ten">
-				<a class="p-ten flex-box justify-s-b align-center bg-f">
+				<a href="#/free" class="p-ten flex-box justify-s-b align-center bg-f">
 					<p class="font-15 color-3">免费权益</p>
 					<p class="font-12">
 						<span class="color-9">

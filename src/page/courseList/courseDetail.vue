@@ -69,7 +69,7 @@
 		</div>
 		<div class="footer fixed width-100 font-15 bg-f">
 			<div class="flex-box height-100 align-center justify-s-b p-l-ten p-r-ten">
-				<div>
+				<div class="p-l-ten">
 					<span class="iconfont icon-cart color-9"></span>
 				</div>
 				<div>
