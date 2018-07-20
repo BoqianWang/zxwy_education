@@ -131,7 +131,7 @@
 	</div>
 </template>
 <style scoped lang="scss">
-	@import '@/assets/style/index.scss';
+	/*@import '@/assets/style/index.scss';*/
 	.p-b-five {
 		padding-bottom: .05rem;
 	}

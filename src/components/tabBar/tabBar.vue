@@ -18,7 +18,7 @@
 	</div>
 </template>
 <style scoped lang="scss">
-	@import '@/assets/style/index.scss';
+	/*@import '@/assets/style/index.scss';*/
 	.home-footer {
 		border-top: 1px solid #ccc;
 		height: .5rem;

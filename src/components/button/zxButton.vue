@@ -4,7 +4,7 @@
 	</div>
 </template>
 <style lang="scss">
-	@import '@/assets/style/index.scss';
+	/*@import '@/assets/style/index.scss';*/
 	.zx-button {
 		display: inline-block;
 	}

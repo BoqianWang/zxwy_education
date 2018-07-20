@@ -271,7 +271,7 @@
 	</div>
 </template>
 <style lang="scss" scoped>
-	@import '@/assets/style/index.scss';
+	/*@import '@/assets/style/index.scss';*/
 /*	.home {
 		padding-bottom: .7rem;
 	}*/

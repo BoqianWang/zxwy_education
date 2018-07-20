@@ -81,7 +81,7 @@
 	</div>
 </template>
 <style scoped lang="scss">
-	@import '@/assets/style/index.scss';
+	/*@import '@/assets/style/index.scss';*/
 	.detail-title {
 		padding: .2rem .1rem;
 		border-bottom: 1px solid #eee;
