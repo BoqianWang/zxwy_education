@@ -152,4 +152,13 @@ html,body{
     bottom: 0;
     background: #fff;
     overflow-y: auto;
-} 
+}
+
+.mint-swipe-indicators .mint-swipe-indicator {
+    opacity: 1;
+    background: #4c4949;
+}
+
+.mint-swipe-indicators .mint-swipe-indicators.is-active {
+    background: $mainBgColor;
+}
