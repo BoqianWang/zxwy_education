@@ -13,7 +13,7 @@
 		background: none;
 		border-radius: 4px;
 		border-width: 1px;
-		border-style: solid;;
+		border-style: solid;
 	}
 	.zx-button > .default {
 		border-color: #ccc;
@@ -32,7 +32,7 @@
 	 *
 	 * value: 按钮文字	  默认"按钮"
 	 * type:  按钮的类型  有default, confirm 默认"default"
-	 * 
+	 *
 	 */
 	export default {
 		props: {

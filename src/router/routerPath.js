@@ -17,6 +17,8 @@ const orderDetail = r => require.ensure([], () => r(require('@/page/order/orderD
 
 const free = r => require.ensure([], () => r(require('@/page/free/free.vue')), 'free');
 
+const login = r => require.ensure([], () => r(require('@/page/login/login.vue')), 'login');
+
 let routerPath = [
    {
 	   path: '/',
@@ -100,6 +102,13 @@ let routerPath = [
       component: free,
       meta: {
          title: '免费权益'
+      }
+   },
+   {
+      path: '/login',
+      component: login,
+      meta: {
+         title: '登录'
       }
    }
 
