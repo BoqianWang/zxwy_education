@@ -74,7 +74,7 @@
 				</div>
 				<div>
 					<zx-button class="p-r-ten" value="加入购物车" type="default"></zx-button>
-					<zx-button value="立即报名" type="confirm"></zx-button>
+					<zx-button @click.native="toPay" value="立即报名" type="confirm"></zx-button>
 				</div>
 			</div>
 		</div>
@@ -120,6 +120,13 @@
 	export default {
 		components: {
 			zxButton
+		},
+		methods: {
+			toPay() {
+				this.$router.push({
+					path: '/shopCart'
+				})
+			}
 		}
 	}
 </script>

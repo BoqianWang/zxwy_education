@@ -84,6 +84,14 @@ let routerPath = [
       }
    },
    {
+      path: '/shopCart/paySuccess',
+      component: paySuccess,
+      meta: {
+          title: '支付成功'
+      }
+      
+   },
+   {
       path: '/orderList',
       component: orderList,
       meta: {

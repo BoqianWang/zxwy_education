@@ -12,7 +12,20 @@
 				</a>
 			</div>
 		</div>
-		<div class="img-wrap bg-size-cover">
+		<div class="img-wrap bg-size-cover font-15">
+			<mt-swipe :auto="3000">
+			  <mt-swipe-item v-for="item in imgDate">
+				<a :href="item.href">
+					<div class="bg-size-cover height-100" :style="{backgroundImage: 'url(' + item.image + ')'}"></div>
+				</a>
+			  </mt-swipe-item>
+			  <!-- <mt-swipe-item>
+				<a href="##">2</a>
+			  </mt-swipe-item>
+			  <mt-swipe-item>
+				<a href="##">3</a>
+			  </mt-swipe-item> -->
+			</mt-swipe>
 		</div>
 		<!-- 内容 -->
 		<div class="home-content m-t-ten">
@@ -317,22 +330,44 @@
 	.discount-class-wrap ul .discount-c-block {
 		border-top: 1px solid #eee;
 	}
-	
-	
+	.mint-swipe .mint-swipe-indicators {
+		height: 200px;
+	}
+/*	.mint-swipe-indicators {
+		position: fixed;
+
+	}*/
 </style>
 <script>
-	// import tabBar from '@/components/tabBar/tabBar.vue';
-	// export default {
-	// 	components: {
-	// 		tabBar
-	// 	},
-	// 	data() {
-	// 		return {
+	import { Swipe, SwipeItem } from 'mint-ui';
+	import Vue from 'vue';
 
-	// 		}
-	// 	},
-	// 	methods: {
+	Vue.component(Swipe.name, Swipe);
+	Vue.component(SwipeItem.name, SwipeItem);
+	export default {
+		data() {
+			return {
+				imgDate: [
+					// {
+					// 	image: 'https://goss.veer.com/creative/vcg/veer/800water/veer-147150521.jpg',
+					// 	href: '',
+					// 	desc: '第一张'
+					// },
+					{
+						image: 'https://operator-advmainimg.zhongxiang51.com/20180720104042.jpg',
+						href: 'https://operator-advmainimg.zhongxiang51.com/20180720104042.jpg',
+						desc: '第二张'
+					},
+					{
+						image: 'https://operator-advmainimg.zhongxiang51.com/20180720104048.jpg',
+						href: 'https://operator-advmainimg.zhongxiang51.com/20180720104042.jpg',
+						desc: '第三张'
+					}
+				]
+			}
+		},
+		methods: {
 
-	// 	}
-	// }
+		}
+	}
 </script>
