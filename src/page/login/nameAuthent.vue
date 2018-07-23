@@ -13,9 +13,9 @@
 		</div>
 		<p style="margin-top:0.2rem;margin-left:0.1rem;color:#333;">请上传身份证照片</p>
 		<div class="flex-box align-center" style="justify-content:space-around">
-			<div class="img_box front"  @click.stop="addPic">
+			<div class="img_box front">
 				<img src="../../assets/images/my/smrz_pic_sfzfm.png" alt="">
-				<input ref="frontinput" type="file" accept="image/jpeg,image/jpg,image/png" capture="camera" style="display:none;">
+				<input type="file" accept="image/jpeg,image/jpg,image/png" capture="camera">
 			</div>
 			<div class="img_box obverse">
 				<img src="../../assets/images/my/smrz_pic_sfzzm.png" alt="">
@@ -37,6 +37,15 @@
 		width: 100%;
 		height: 100%;
 	}
+	input{
+		position: relative;
+		left: 0;
+		top: -1.1rem;
+		width: 100%;
+		height: 100%;
+		z-index: 999;
+		opacity: 0;
+	}
 }
 </style>
 <script>
@@ -51,10 +60,6 @@ Vue.component(Cell.name, Cell);
 			}
 		},
 		methods:{
-			addPic(){
-				this.$refs["frontinput"].trigger('click');
-				return false;
-			}
 		}
 	}
 </script>
