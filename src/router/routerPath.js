@@ -19,6 +19,10 @@ const free = r => require.ensure([], () => r(require('@/page/free/free.vue')), '
 
 const login = r => require.ensure([], () => r(require('@/page/login/login.vue')), 'login');
 
+const register = r => require.ensure([], () => r(require('@/page/login/register.vue')), 'register');
+
+const authent = r => require.ensure([], () => r(require('@/page/login/nameAuthent.vue')), 'authent');
+
 let routerPath = [
    {
 	   path: '/',
@@ -89,7 +93,7 @@ let routerPath = [
       meta: {
           title: '支付成功'
       }
-      
+
    },
    {
       path: '/orderList',
@@ -118,8 +122,21 @@ let routerPath = [
       meta: {
          title: '登录'
       }
+   },
+   {
+      path: '/register',
+      component: register,
+      meta: {
+         title: '新用户登录'
+      }
+   },
+   {
+      path: '/authent',
+      component: authent,
+      meta: {
+         title: '实名认证'
+      }
    }
-
 ];
 
 export default routerPath;
